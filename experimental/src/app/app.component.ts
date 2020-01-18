@@ -12,7 +12,7 @@ export class AppComponent {
   obj = {a:1,b:2,c:3}
   // tslint:disable-next-line:max-line-length
   imag = 'https://shwanoff.ru/wp-content/uploads/2018/03/toptal-blog-image-1518187252525-03f6db7b1c131066061024c236c7e3ff-e1521450807573.png';
-
+  sara = 'TS';
   inputValue = '';
   // Тут обычняа функция не работает....
   constructor() {

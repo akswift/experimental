@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './post3.component.html',
   styleUrls: ['./post3.component.css']
 })
-export class Post3Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class Post3Component {
+  backgroundToggle = false
 }

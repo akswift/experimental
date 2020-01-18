@@ -14,3 +14,13 @@
 <app-post></app-post>
 
 
+<input type="text" (keyup.enter)="onInput($event)">
+
+<button (click)="onClick()" >Click me!</button>
+
+<p>
+  <strong>
+    {{inputValue}}
+  </strong>
+</p>
+

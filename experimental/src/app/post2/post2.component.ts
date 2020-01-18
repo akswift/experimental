@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './post2.component.html',
   styleUrls: ['./post2.component.css']
 })
-export class Post2Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class Post2Component {
 
 }

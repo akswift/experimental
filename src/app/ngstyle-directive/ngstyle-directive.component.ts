@@ -1,0 +1,11 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-ngstyle-directive',
+  templateUrl: './ngstyle-directive.component.html',
+  styleUrls: ['./ngstyle-directive.component.css']
+})
+
+export class NgstyleDirectiveComponent {
+  backgroundToggle = false
+}

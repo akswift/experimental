@@ -1,34 +1,14 @@
-<h1>Hello</h1>
+<app-component-first></app-component-first>
 
-<p>
-  {{ title }}
+<app-interpolation></app-interpolation>
 
-  {{number - 2}}
+<app-bindings></app-bindings>
 
-  {{obj.a + number + 'World'}}
-</p>
+<app-eventbindings></app-eventbindings>
 
-<img [src]="imag" alt="">
+<app-to-way-bindings></app-to-way-bindings>
 
-<app-post></app-post>
-<app-post></app-post>
+<app-ngstyle-directive></app-ngstyle-directive>
 
-<app-post3></app-post3>
-
-
-<input type="text" (keyup.enter)="onInput($event)">
-
-<button (click)="onClick()" >Click me!</button>
-
-<p>
-  <strong>
-    {{inputValue}}
-  </strong>
-</p>
-
-<input type="text" [(ngModel)]="sara">
-
-<p>
-  {{sara}}
-</p>
+<app-ngclass-directive></app-ngclass-directive>
 

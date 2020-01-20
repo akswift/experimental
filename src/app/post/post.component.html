@@ -1,0 +1,13 @@
+<h2 class="postComp">
+  My first component
+</h2>
+
+<button (click)="backgroundToggle = !backgroundToggle">CLICK TOGgLE</button>
+
+<div [ngStyle]="{
+  width: '200px',
+  height: '200px',
+  borderRadius: '5px',
+  border: '2px solid #ccc',
+  backgroundColor: backgroundToggle ? 'red' : 'blue'
+}"></div>

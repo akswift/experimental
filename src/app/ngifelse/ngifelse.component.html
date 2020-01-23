@@ -1,0 +1,21 @@
+<p *ngIf="toggle" class="red">
+    Красный Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, earum.
+</p>
+
+<p *ngIf="!toggle" class="blue">
+    Синий Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, nisi.
+</p>
+
+<button (click)="toggle = !toggle">Toggle</button>
+
+
+<p *ngIf="toggle; else blueP" class="red">
+    Красный Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, earum.
+</p>
+
+<ng-template #blueP>
+    <p  class="blue">
+        Синий Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, nisi.
+    </p>
+</ng-template>
+

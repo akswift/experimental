@@ -1,0 +1,23 @@
+<p>ngFor</p>
+
+<ul>
+    <li *ngFor="let n of arr; let idx = index">
+        {{idx}} - <strong>{{n}}</strong>
+    </li>
+</ul>
+
+<p>ngForObj</p>
+
+<ul>
+    <li *ngFor="let post of objs; let idx = index">
+        <p>{{post.title}} <b>{{post.author}}</b></p>
+        <ul>
+            <li *ngFor="let commnet of post.comments">
+                <div>
+                    <small>{{commnet.name}}</small>
+                    <p>{{commnet.text}}</p>
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>

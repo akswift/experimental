@@ -11,6 +11,7 @@ import { ToWayBindingsComponent } from './to-way-bindings/to-way-bindings.compon
 import { NgstyleDirectiveComponent } from './ngstyle-directive/ngstyle-directive.component';
 import { NgclassDirectiveComponent } from './ngclass-directive/ngclass-directive.component';
 import { NgifelseComponent } from './ngifelse/ngifelse.component';
+import { NgswitchComponent } from './ngswitch/ngswitch.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NgifelseComponent } from './ngifelse/ngifelse.component';
     ToWayBindingsComponent,
     NgstyleDirectiveComponent,
     NgclassDirectiveComponent,
-    NgifelseComponent
+    NgifelseComponent,
+    NgswitchComponent
   ],
   imports: [
     BrowserModule,

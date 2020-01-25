@@ -13,6 +13,7 @@ import { NgclassDirectiveComponent } from './ngclass-directive/ngclass-directive
 import { NgifelseComponent } from './ngifelse/ngifelse.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { NgforComponent } from './ngfor/ngfor.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NgforComponent } from './ngfor/ngfor.component';
     NgclassDirectiveComponent,
     NgifelseComponent,
     NgswitchComponent,
-    NgforComponent
+    NgforComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+
+.button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 10px 0px;
+}
+
+.input  {
+    display: block;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px;
+}

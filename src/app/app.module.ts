@@ -14,6 +14,8 @@ import { NgifelseComponent } from './ngifelse/ngifelse.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { NgforComponent } from './ngfor/ngfor.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { PistFormComponent } from './pist-form/pist-form.component';
+import { PistComponent } from './pist/pist.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { PipesComponent } from './pipes/pipes.component';
     NgifelseComponent,
     NgswitchComponent,
     NgforComponent,
-    PipesComponent
+    PipesComponent,
+    PistFormComponent,
+    PistComponent
   ],
   imports: [
     BrowserModule,

@@ -30,3 +30,22 @@
 
 <app-pipes></app-pipes>
 <hr>
+<hr>
+<hr>
+
+<h2>Вывод форм, компоненты </h2>
+
+<app-pist-form (onAdd)="updatePost($event)"
+></app-pist-form>
+
+<hr>
+
+<app-pist
+    *ngFor="let p of posts"
+    [post]="p"
+>
+    <small *ngIf="p.text.length > 10; else short">Пост длинный</small>
+    <ng-template #short>
+        <small>Пост короткий</small>
+    </ng-template>
+</app-pist>

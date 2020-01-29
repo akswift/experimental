@@ -2,3 +2,9 @@ span {
     font-weight: 700;
     color: darkblue;
 }
+
+.button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}

@@ -16,6 +16,8 @@ import { NgforComponent } from './ngfor/ngfor.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { PistFormComponent } from './pist-form/pist-form.component';
 import { PistComponent } from './pist/pist.component';
+import {StyleDirective} from "./directives/style.directive";
+import { Directives2Directive } from './directives2.directive';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { PistComponent } from './pist/pist.component';
     NgforComponent,
     PipesComponent,
     PistFormComponent,
-    PistComponent
+    PistComponent,
+    StyleDirective,
+    Directives2Directive
   ],
   imports: [
     BrowserModule,

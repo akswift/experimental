@@ -1,22 +1,29 @@
 import {
+  AfterContentChecked,
+  AfterContentInit,
+  AfterViewChecked,
+  AfterViewInit,
   Component,
   ContentChild,
-  ElementRef,
-  Input,
-  OnInit,
-  OnChanges,
   DoCheck,
+  ElementRef,
+  EventEmitter,
+  Input,
+  OnChanges,
+  OnDestroy,
+  OnInit,
+  Output,
   SimpleChanges,
-  AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy, Output, EventEmitter
+  ViewEncapsulation
 } from '@angular/core';
 import {pist} from "../app.component";
-
 
 
 @Component({
   selector: 'app-pist',
   templateUrl: './pist.component.html',
-  styleUrls: ['./pist.component.css']
+  styleUrls: ['./pist.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 
 
